@@ -35,6 +35,18 @@
       "name": "messi",
       "email": "messi@outlook.com",
       "password": "1111"
+    },
+    {
+      "id": "9e11ecef-dfa9-4a0c-b6ae-4db30036bdfd",
+      "name": "Thays Cabral Oliveira",
+      "email": "testethays@outlook.com",
+      "password": "1999"
+    },
+    {
+      "id": "31c2589e-893f-446f-b828-fbce15ba9f8a",
+      "name": "Alo",
+      "email": "123@123",
+      "password": "123"
     }
   ],
   "schedules": [
@@ -65,6 +77,13 @@
       "email": "felipech_99@outlook.com",
       "date": "5",
       "time": "16:00"
+    },
+    {
+      "id": "b1a1ea63-613c-4a60-bc67-b2c789f7c02a",
+      "name": "Thays Cabral",
+      "email": "t.hays.cabral09@hotmail.com",
+      "date": "1",
+      "time": "8:00"
     }
   ]
 }
