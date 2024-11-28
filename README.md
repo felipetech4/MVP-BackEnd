@@ -10,11 +10,10 @@ Após o desenvolvimento do MVP para o front-end da plataforma, o objetivo do pre
 Instruções para executar o projeto localmente:
 
 1. Clone ou faça o download do projeto no repositório.
-2. Abra o projeto no seu ambiente de desenvolvimento de preferência (nós utilizamos o VS Code).
-3. Abra o terminal no diretório principal (MVP-BackEnd)
-4. Execute o comando npm install (apenas uma vez).
-5. Executar o projeto clicando duas vezes no arquivo "SobeSite.bat", no diretório do projeto. Após isso, a aba do terminal deve permanecer aberta para manter o programa rodando.
-6. Para derrubar a aplicação, basta fechar a janela do terminal.
+2. Abra o terminal no diretório principal (MVP-BackEnd)
+3. Execute o comando npm install (apenas uma vez).
+4. Executar o projeto clicando duas vezes no arquivo "SobeSite.bat", no diretório do projeto. Após isso, a aba do terminal deve permanecer aberta para manter o programa rodando.
+5. Para derrubar a aplicação, basta fechar a janela do terminal.
 
 Para fazer uso das funcionalidades desse MVP, é necessário também rodar em conjunto o front-end, localizado no repositório: https://github.com/felipetech4/MVP-FrontEnd
 
