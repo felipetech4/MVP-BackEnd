@@ -14,7 +14,7 @@ Este é o repositório do back-end do projeto **MVP AgendaFácil NAF** (Núcleo 
 - Login.
 - Agendamento de serviços.
 
-A proposta deste MVP é integrar o back-end às principais funcionalidades da plataforma desenvolvida previamente no front-end, aprimorando a experiência do usuário e a eficiência do sistema.
+A proposta do nosso MVP é integrar o back-end às principais funcionalidades da plataforma desenvolvida previamente no front-end, aprimorando a experiência do usuário e a eficiência do sistema.
 
 ---
 
@@ -35,13 +35,13 @@ Siga os passos abaixo para configurar e rodar o back-end localmente:
    ```bash
    git clone https://github.com/felipetech4/MVP-BackEnd
    ```
-2. **Acesse a pasta do projeto**
+2. **Acesse a pasta do projeto (MVP-BackEnd)**
 3. **Dentro da pasta, abra o terminal (Git Bash) e instale as dependências**:
    ```bash
    npm install
    ```
 4. **Inicie o servidor**:
-   - Execute o arquivo `SobeSite.bat` localizado na pasta do projeto, clicando duas vezes sobre ele.
+   - Ainda na pasta do projeto, execute o arquivo `SobeSite.bat` clicando duas vezes sobre ele.
    - Mantenha a janela do terminal aberta para manter o programa rodando.
 5. **Para encerrar a aplicação**:
    - Basta fechar a janela do terminal.
