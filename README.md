@@ -31,23 +31,19 @@ Este MVP busca solucionar esses desafios, proporcionando uma interface intuitiva
 ## Instruções para Execução Local
 Siga os passos abaixo para configurar e rodar o back-end localmente:
 
-1. **Clone ou faça o download do repositório**:
+1. **Clone ou faça o download do nosso repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/MVP-BackEnd
+   git clone https://github.com/felipetech4/MVP-BackEnd
    ```
-2. **Abra o projeto no seu ambiente de desenvolvimento favorito** (ex: VS Code).
-3. **No terminal, acesse o diretório raiz do projeto**:
-   ```bash
-   cd MVP-BackEnd
-   ```
-4. **Instale as dependências**:
+2. **Acesse a pasta do projeto**
+3. **Dentro da pasta, abra o terminal (Git Bash) e instale as dependências**:
    ```bash
    npm install
    ```
-5. **Inicie o servidor**:
-   - Execute o arquivo `SobeSite.bat` clicando duas vezes nele no explorador de arquivos.
+4. **Inicie o servidor**:
+   - Execute o arquivo `SobeSite.bat` localizado na pasta do projeto, clicando duas vezes sobre ele.
    - Mantenha a janela do terminal aberta para manter o programa rodando.
-6. **Para encerrar a aplicação**:
+5. **Para encerrar a aplicação**:
    - Basta fechar a janela do terminal.
 
 ---
@@ -61,6 +57,3 @@ Para utilizar as funcionalidades completas deste projeto, é necessário rodar o
 As instruções para execução do front-end encontram-se no README do repositório correspondente.
 
 ---
-
-## Contato
-Em caso de dúvidas ou sugestões, entre em contato com qualquer um dos integrantes do projeto.
