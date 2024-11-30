@@ -1,21 +1,66 @@
-MVP Back-End: AgendaFácil NAF.
+# MVP Back-End: AgendaFácil NAF
 
-Integrantes: Felipe de Azevedo Braga - Matrícula: 01023496 - Gabriel Almeida Barrio Nuevo - Matrícula: 06007687 - Thiago Samuel Martins Vieira - Matrícula: 06007696
+## Integrantes
+- **Felipe de Azevedo Braga** - Matrícula: 01023496  
+- **Gabriel Almeida Barrio Nuevo** - Matrícula: 06007687  
+- **Thiago Samuel Martins Vieira** - Matrícula: 06007696
 
-Descrição do MVP: Esse é o repositório do back-end do nosso projeto MVP AgendaFácil NAF (Núcleo de Apoio Contábil e Fiscal), um sistema para agendamento de serviços contábeis e fiscais. Este documento fornece uma visão geral do projeto, estrutura do código-fonte e instruções para execução.
+---
 
-Situação problema: o Núcleo de Apoio Contábil e Fiscal necessita de uma plataforma que permita aos usuários realizar cadastro de conta, login e agendamentos, para então ter acesso aos seus serviços.
-Após o desenvolvimento do MVP para o front-end da plataforma, o objetivo do presente projeto é a criação e integração de um MVP do back-end para as principais funcionalidades dessa plataforma.
+## Descrição do Projeto
+Este é o repositório do back-end do projeto **MVP AgendaFácil NAF** (Núcleo de Apoio Contábil e Fiscal). O sistema visa oferecer uma solução para agendamento de serviços contábeis e fiscais, permitindo aos usuários:
 
-Instruções para executar o projeto localmente:
+- Cadastro de conta.
+- Login.
+- Agendamento de serviços.
 
-1. Clone ou faça o download do projeto no repositório.
-2. Abra o projeto no seu ambiente de desenvolvimento de preferência (nós utilizamos o VS Code).
-3. Abra o terminal no diretório principal (MVP-BackEnd)
-4. Execute o comando npm install (apenas uma vez).
-5. Executar o projeto clicando duas vezes no arquivo "SobeSite.bat", no diretório do projeto. Após isso, a aba do terminal deve permanecer aberta para manter o programa rodando.
-6. Para derrubar a aplicação, basta fechar a janela do terminal.
+A proposta deste MVP é integrar o back-end às principais funcionalidades da plataforma desenvolvida previamente no front-end, aprimorando a experiência do usuário e a eficiência do sistema.
 
-Para fazer uso das funcionalidades desse MVP, é necessário também rodar em conjunto o front-end, localizado no repositório: https://github.com/felipetech4/MVP-FrontEnd
+---
 
-Obs: As intruções de execução local do front-end se encontram no README do mesmo.
+## Problema
+O Núcleo de Apoio Contábil e Fiscal enfrenta dificuldades na organização e gestão dos atendimentos aos usuários. Atualmente, não há uma plataforma prática e funcional que permita realizar:
+
+- **Cadastro e autenticação de contas.**
+- **Agendamento de serviços de forma centralizada.**
+
+Este MVP busca solucionar esses desafios, proporcionando uma interface intuitiva e eficiente para os usuários finais.
+
+---
+
+## Instruções para Execução Local
+Siga os passos abaixo para configurar e rodar o back-end localmente:
+
+1. **Clone ou faça o download do repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/MVP-BackEnd
+   ```
+2. **Abra o projeto no seu ambiente de desenvolvimento favorito** (ex: VS Code).
+3. **No terminal, acesse o diretório raiz do projeto**:
+   ```bash
+   cd MVP-BackEnd
+   ```
+4. **Instale as dependências**:
+   ```bash
+   npm install
+   ```
+5. **Inicie o servidor**:
+   - Execute o arquivo `SobeSite.bat` clicando duas vezes nele no explorador de arquivos.
+   - Mantenha a janela do terminal aberta para manter o programa rodando.
+6. **Para encerrar a aplicação**:
+   - Basta fechar a janela do terminal.
+
+---
+
+## Integração com o Front-End
+Para utilizar as funcionalidades completas deste projeto, é necessário rodar o front-end em conjunto. O repositório do front-end está disponível em:
+
+[**MVP-FrontEnd**](https://github.com/felipetech4/MVP-FrontEnd)
+
+### Nota:
+As instruções para execução do front-end encontram-se no README do repositório correspondente.
+
+---
+
+## Contato
+Em caso de dúvidas ou sugestões, entre em contato com qualquer um dos integrantes do projeto.
