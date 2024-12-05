@@ -31,15 +31,6 @@ Este MVP busca solucionar esses desafios, proporcionando uma interface intuitiva
 
 ---
 
-## Requisitos funcionais
-
-- **Criar uma API que receba, valide e retorne os dados necessários para a realização de login.**
-- **Desenvolver uma forma de armazenar e recuperar os dados da aplicação.**
-- **Permitir ao usuário realizar cadastro no sistema.**
-- **Possibilitar ao usuário agendar uma consulta.**
-
----
-
 ## Instruções para Execução Local
 
 Siga os passos abaixo para configurar e rodar o back-end localmente:
