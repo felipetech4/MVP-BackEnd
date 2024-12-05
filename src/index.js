@@ -9,14 +9,14 @@ app.use(cors());
 app.use(bodyParser.json()); // Para interpretar JSON no corpo das requisições
 
 // Rotas
-const userRoutes = require('./routes/users');
-const scheduleRoutes = require('./routes/schedule');
+const rotasUsuarios = require('./routes/usuarios');
+const rotasAgendamentos = require('./routes/agendamentos');
 
-app.use('/api/users', userRoutes); // Rotas de usuários
-app.use('/api/schedules', scheduleRoutes); // Rotas de agendamentos
+app.use('/api/usuarios', rotasUsuarios); // Rotas de usuários
+app.use('/api/agendamentos', rotasAgendamentos); // Rotas de agendamentos
 
 // Iniciar o servidor
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://localhost:${PORT}`);
+const PORTA = 3000;
+app.listen(PORTA, () => {
+    console.log(`Servidor rodando em http://localhost:${PORTA}`);
 });
