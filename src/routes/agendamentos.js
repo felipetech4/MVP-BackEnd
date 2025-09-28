@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 const router = express.Router();
 const path = require('path');
 
-const caminhoBD = './db.json'; // Caminho do arquivo JSON
+const caminhoBD = path.join(__dirname, '..', 'db.json'); // Caminho do arquivo JSON
 
 // Função para carregar o "banco de dados"
 function carregarBanco() {
@@ -22,15 +22,19 @@ function gerarHorariosDisponiveis() {
     const horaInicio = 8; // 8h
     const horaFim = 18;  // 18h
     const hoje = new Date();
-    const mesAtual = hoje.getMonth(); // Mês atual (0-11)
 
-    for (let dia = 1; dia <= 15; dia++) { // Até 15 dias
-        const data = new Date(hoje.getFullYear(), mesAtual, dia);
-
-        if (data.getMonth() !== mesAtual) continue; // Ignora dias de outros meses
+    for (let i = 0; i < 15; i++) { // Próximos 15 dias
+        const data = new Date(hoje);
+        data.setDate(hoje.getDate() + i);
+        
+        // Pula fins de semana (sábado = 6, domingo = 0)
+        if (data.getDay() === 0 || data.getDay() === 6) continue;
 
         for (let hora = horaInicio; hora < horaFim; hora++) {
-            horarios.push({ dia, hora: `${hora}:00` });
+            horarios.push({ 
+                dia: data.toISOString().split('T')[0], // formato YYYY-MM-DD
+                hora: `${hora}:00` 
+            });
         }
     }
 

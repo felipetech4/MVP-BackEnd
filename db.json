@@ -1,0 +1,12 @@
+{
+  "usuarios": [],
+  "agendamentos": [
+    {
+      "id": "3fdf19a1-9b0b-4f98-b401-14bc8df05ac3",
+      "nome": "Felipe de Azevedo Braga",
+      "email": "admin@admin.com",
+      "dia": "2025-10-09",
+      "horario": "13:00"
+    }
+  ]
+}
